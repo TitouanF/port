@@ -13,8 +13,7 @@ public class Emplacement
 {   
     int idEmplacement;
     String nomEmplacement, type;
-    int tirantEau;
-    int disponible;
+    int tirantEau,disponible;
     float prix;
     
     
