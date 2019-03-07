@@ -32,7 +32,9 @@ public class EmplacementResource
     /**
      * Creates a new instance of EmplacementResource
      */
-    public EmplacementResource(){}
+    public EmplacementResource()
+    {
+    }
 
     /**
      * Retrieves representation of an instance of jaxws.EmplacementResource
