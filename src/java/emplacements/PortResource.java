@@ -51,7 +51,7 @@ public class PortResource
     } 
     
     // ENLEVER SI ON FAIT LE TRUC DIRECT SUR ANDROIDSTUDIO
-   @GET
+    @GET
     @Path("listeTri")
     @Produces({MediaType.APPLICATION_JSON})
     public ArrayList<Emplacement> getJSON(@QueryParam("occupe") int valeur)
